@@ -1,5 +1,9 @@
 h3{
     color:tan;
+    text-align:center;
+}
+a{
+    color:tan;
 }
 header{
     background-color:black;
@@ -9,4 +13,7 @@ h1{
 }
 h2{
     text-align:center;
+}
+img{
+    width:300px;
 }
