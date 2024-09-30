@@ -1,5 +1,5 @@
 body{
-    background-color:#181C14;
+    background-color:#1E201E;
 }
 header{
     display:block;
@@ -15,6 +15,11 @@ header{
     width:350px;
     padding-left:10px;
     padding-right:10px;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
 }
 .section{
     background-color:#3C3D37;
@@ -32,6 +37,22 @@ header{
     position:relative;
     z-index:-1;
 }
+#text {
+  position:absolute;
+  top: 20px;
+  left: 30%;
+  transform: translate (-50%, -50%);
+  max-width:200px;
+  min-width:200px;
+}
+@media (max-width:400px){
+    h1{
+        font-size:.5em;
+    }
+    h2{
+        font-size:.4em;
+    }
+}
 @keyframes slidein {
   from {
     translate: 150vw 0;
@@ -43,17 +64,13 @@ header{
     scale: 100% 1;
   }
 }
-@keyframes slideup {
-    from{
-        
-    }
-}
 hr{
-    color:#ECDFCC;
+    border-top:2px solid #ECDFCC;
 }
 h3{
     color:#ECDFCC;
     text-align:right;
+    z-index:1;
 }
 a{
     color:#ECDFCC;
@@ -61,10 +78,12 @@ a{
 h1{
     color:#ECDFCC;
     text-align:center;
+    z-index:1;
 }
 h2{
     color:#ECDFCC;
     text-align:center;
+    z-index:1;
 }
 p{
     color:#ECDFCC;
@@ -80,4 +99,7 @@ img:hover{
 }
 video:hover{
     width:350px;
+}
+div{
+    column-gap:80px;
 }
