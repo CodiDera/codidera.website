@@ -1,2 +1,1 @@
-# codidera.website
-CodiDera Art Website
+CodiDera Art Website and Portfolio 
