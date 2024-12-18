@@ -108,13 +108,9 @@ div{
     position: relative;
     margin-left: 10em;
     margin-right: 10em; 
-    img{
-        height: 20em;
-        width: 10em;;
-    }
 }
 .mySlides {
-    display: none;
+    display: hidden;
 }  
 .prev, .next {
     cursor: pointer;
