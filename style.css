@@ -108,6 +108,10 @@ div{
     position: relative;
     margin-left: 10em;
     margin-right: 10em; 
+    img{
+        height: 20em;
+        width: auto;
+    }
 }
 .mySlides {
     display: none;
