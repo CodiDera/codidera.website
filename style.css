@@ -110,7 +110,7 @@ div{
     margin-right: 10em; 
 }
 .mySlides {
-    display: hidden;
+    display: none;
 }  
 .prev, .next {
     cursor: pointer;

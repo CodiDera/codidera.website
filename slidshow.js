@@ -1,3 +1,5 @@
+let slideIndex = 1;
+showSlides(slideIndex);
 function showDivs(n) {
     var i;
     var x = document.getElementsByClassName("mySlides");
@@ -7,8 +9,7 @@ function showDivs(n) {
       x[i].style.display = "none";
     }
     x[slideIndex-1].style.display = "block";
-  }
-  let slideIndex = [1,1];
+}
   /* Class the members of each slideshow group with different CSS classes */
   let slideId = ["mySlides1", "mySlides2"]
   showSlides(1, 0);
