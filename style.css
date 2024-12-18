@@ -104,11 +104,14 @@ div{
     column-gap:80px;
 }
 .slideshow-container {
+    min-width: 10em;
+    min-height: 20em;
     max-height: 20em;
     max-width: 10em;
     position: relative;
-    margin-left: 10em;
-    margin-right: 10em; 
+    margin-left: auto;
+    margin-right: auto; 
+    top: 10em;
 }
 .mySlides {
     display: none;
@@ -116,9 +119,8 @@ div{
 .prev, .next {
     cursor: pointer;
     position: absolute;
-    top: 50%;
+    top: 5em;
     width: auto;
-    margin-top: -22px;
     padding: 16px;
     color: grey;
     font-weight: bold;
@@ -128,43 +130,22 @@ div{
     user-select: none;
 }
 .next {
-    right: 50;
+    left: 10em;
     border-radius: 3px 0 0 3px;
 }
 .prev{
-    left: 50;
+    right: 10em;
 }
 .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
 }
-.numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-}
 .text {
     color: #f2f2f2;
     font-size: 15px;
-    padding: 8px 12px;
     position: absolute;
-    bottom: 8px;
+    bottom: 4em;
     width: 100%;
     text-align: center;
-}
-.dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-}
-.active, .dot:hover {
-    background-color: #717171;
 }
 .fade {
     animation-name: fade;
