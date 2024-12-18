@@ -106,7 +106,8 @@ div{
 .slideshow-container {
     max-width: 1000px;
     position: relative;
-    margin: auto;
+    margin-left: 10em;
+    margin-right: 10em; 
 }
 .mySlides {
     display: none;
